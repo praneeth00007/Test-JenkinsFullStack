@@ -1,0 +1,19 @@
+/* Import our custom styles */
+@import './styles.css';
+@import './navigation.css';
+@import './home.css';
+@import './styles/addItem.css';
+@import './styles/viewItem.css';
+@import './styles/updateItem.css';
+
+/* Override Vite default styles if needed */
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+#root {
+  width: 100%;
+  height: 100%;
+}

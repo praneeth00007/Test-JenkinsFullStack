@@ -1,0 +1,137 @@
+/* Home Page Specific Styles */
+.hero-section {
+  background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%);
+  color: white;
+  padding: var(--spacing-xl) 0;
+  border-radius: var(--border-radius-lg);
+  margin-bottom: var(--spacing-xl);
+  text-align: center;
+  box-shadow: var(--shadow-lg);
+}
+
+.hero-content {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 var(--spacing-md);
+}
+
+.hero-title {
+  font-size: 2.5rem;
+  margin-bottom: var(--spacing-sm);
+  color: white;
+}
+
+.hero-subtitle {
+  font-size: 1.2rem;
+  opacity: 0.9;
+  margin-bottom: var(--spacing-lg);
+}
+
+.hero-buttons {
+  display: flex;
+  gap: var(--spacing-md);
+  justify-content: center;
+}
+
+.primary-button {
+  background-color: var(--accent-color);
+  color: white;
+  padding: 12px 24px;
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+
+.primary-button:hover {
+  background-color: #3da58a;
+}
+
+.secondary-button {
+  background-color: transparent;
+  color: white;
+  padding: 12px 24px;
+  font-weight: 600;
+  font-size: 1.1rem;
+  border: 2px solid white;
+}
+
+.secondary-button:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.featured-section {
+  padding: var(--spacing-lg) 0;
+}
+
+.section-header {
+  text-align: center;
+  margin-bottom: var(--spacing-lg);
+}
+
+.section-title {
+  font-size: 2rem;
+  color: var(--secondary-color);
+  margin-bottom: var(--spacing-xs);
+}
+
+.section-subtitle {
+  color: var(--text-color);
+  opacity: 0.8;
+}
+
+.item-icon {
+  font-size: 4rem;
+}
+
+.cta-section {
+  background-color: rgba(79, 195, 161, 0.1);
+  border-radius: var(--border-radius-lg);
+  padding: var(--spacing-xl) var(--spacing-md);
+  margin: var(--spacing-xl) 0;
+  text-align: center;
+}
+
+.cta-content {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.cta-title {
+  font-size: 1.8rem;
+  color: var(--secondary-color);
+  margin-bottom: var(--spacing-sm);
+}
+
+.cta-text {
+  margin-bottom: var(--spacing-md);
+  color: var(--text-color);
+}
+
+.cta-button {
+  background-color: var(--accent-color);
+  color: white;
+  padding: 12px 24px;
+  font-weight: 600;
+}
+
+.cta-button:hover {
+  background-color: #3da58a;
+}
+
+@media (max-width: 768px) {
+  .hero-title {
+    font-size: 2rem;
+  }
+  
+  .hero-subtitle {
+    font-size: 1rem;
+  }
+  
+  .hero-buttons {
+    flex-direction: column;
+    gap: var(--spacing-sm);
+  }
+  
+  .section-title {
+    font-size: 1.8rem;
+  }
+}
