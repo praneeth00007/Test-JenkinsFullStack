@@ -50,16 +50,6 @@ pipeline {
             }
         }
 
-        // ===== RESTART TOMCAT =====
-        stage('Restart Tomcat') {
-            steps {
-                bat '''
-                net stop Tomcat10
-                ping -n 5 127.0.0.1 > nul
-                net start Tomcat10
-                '''
-            }
-        }
     }
 
     post {
