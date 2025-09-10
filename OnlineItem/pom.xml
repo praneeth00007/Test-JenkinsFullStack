@@ -9,7 +9,7 @@
     <relativePath/> <!-- lookup parent from repository -->
   </parent>
   <groupId>com.art</groupId>
-  <artifactId>OnlineArt</artifactId>
+  <artifactId>OnlineItem</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>war</packaging>
   <name>OnlineItem</name>
@@ -64,7 +64,7 @@
   </dependencies>
 
   <build>
-  <finalName>onlineItem</finalName>
+    <finalName>onlineItem</finalName>
     <plugins>
       <plugin>
         <groupId>org.springframework.boot</groupId>
