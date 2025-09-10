@@ -11,7 +11,7 @@ import com.art.model.Item;
 import com.art.service.ItemService;
 @RestController
 @RequestMapping("/item")
-@CrossOrigin(origins = {"http://localhost:2030", "http://localhost:5173", "http://localhost:2030/itemsapi"}) // specific origins for security
+@CrossOrigin(origins = {"http://localhost:2030", "http://localhost:5173", "http://localhost:2030/itemsapi"}) 
 public class ItemController {
 
     @Autowired

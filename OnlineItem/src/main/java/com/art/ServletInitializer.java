@@ -3,8 +3,10 @@ package com.art;
 import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;
 
-// This class can be removed since OnlineItemStoreApplication already extends SpringBootServletInitializer
-// However, leaving it for compatibility with existing references
+/**
+ * This class is the WAR deployment entry point.
+ * It configures the Spring Boot application when running as a WAR in an external servlet container.
+ */
 public class ServletInitializer extends SpringBootServletInitializer {
 
 	@Override
